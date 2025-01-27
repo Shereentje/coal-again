@@ -1,0 +1,194 @@
+body {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  
+  color: rgb(255, 255, 255);
+  background-position: center;
+  margin-top: 1em;
+  font-size: medium;
+  margin-bottom: 3em;
+}
+
+header nav {
+  width: 100%;
+  background-position: center;
+  margin-top: 0;
+  padding: 1em;
+  background-color: #e4e4e4;
+  font-size: 20px;
+  color: #23740d;
+  margin-bottom: 3em;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif
+
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  color: rgb(91, 20, 91);
+  list-style-type: none;
+  padding-left: 0;
+  box-sizing: border-box;
+}
+
+
+nav a:hover {
+  display: flex;
+  justify-content: space-around; /* Verspreid de links gelijkmatig */
+  color: #23740d; /* Veranderd de kleur van de link naar groen als je hovert over het element */
+}
+
+
+main{
+  background-color: #ffffff;
+  margin-bottom: 3em;
+}
+
+
+p {
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  color: black;
+  padding: 20px;
+
+}
+
+/* dubbele p moet samen voegen of er 1 vanaf */
+p {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em;
+  color: rgb(0, 0, 0);
+}
+
+p {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em;
+  color: rgb(0, 0, 0);
+}
+
+/* nog deze dingen hieronder goed aanpassen */
+
+h1 {
+  color: rgb(14, 85, 40);
+  font-size: 30px;
+  margin: 10;
+  text-align: left;
+  padding-top: 2em;
+  padding-left: 2em;
+}
+
+h2 {
+  color: rgb(108, 44, 44);
+  font-size: 20px;
+  margin: 10;
+  text-align: left;
+  padding-top: 2em;
+  padding-left: 2em;
+}
+
+h3 {
+  color: rgb(91, 20, 91);
+  font-size: 20px;
+  margin: 10;
+  text-align: left;
+  padding-top: 2em;
+}
+
+h4 {
+  color: rgb(37, 26, 135);
+  font-size: 15px;
+  margin: 5px;
+  text-align: center;
+  padding-top: 2em;
+
+}
+
+
+img {
+  height: 150px;
+  background-position: center;
+}
+
+footer {
+  background-color: #23740d;
+  text-align: center;
+  padding: 10px;
+    line-height: 0.5;
+  width: 100%;
+  bottom: 0;/* Zet de footer onderaan de pagina */
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+
+/* deze controleren en aanpassen*/
+footer {
+  position: relative; /* Stelt de footer in als relatief t.o.v. zijn normale positie */
+  bottom: 0; /* Zet de footer onderaan de pagina */
+  margin-top: 20px; /* Voeg ruimte boven de footer toe */
+  padding: 20px; /* Binnenruimte van de footer */
+}
+
+
+
+
+
+/* Container stijl */
+.container {
+  max-width: 800px;
+  /* Maximale breedte van de container */
+  margin: 1em;
+  /* Centreert de container */
+  background: rgb(77, 128, 78);
+  /* Witte achtergrond */
+  padding: 2em;
+  /* Ruimte binnenin de container */
+  border-radius: 2px;
+  display:flex;
+  justify-content: center;
+  /* Afgeronde hoeken */
+  box-shadow: 0px 2px 2px rgba(255, 222, 222, 0.1);
+  /* Schaduw */
+  /* Code gekregen door ChatGPT op 15 januari 2025 */
+}
+
+
+
+
+
+/* TOE DOE:
+- padding and margin contloren, mag voor vormgeving niet voor ruimte
+- meer speling met de balk  
+-  kleurcodes moeten overeen komen
+- code controleren met die ene validator */
+
+
+/* gegenererd met ChatGPT op  */
+section {
+  background-color: #f4f4f4; /* Achtergrondkleur voor de sectie */
+  border: 2px solid #333; /* Een dunne rand rondom de sectie */
+  border-radius: 8px; /* Afgeronde hoeken */
+  padding: 20px; /* Ruimte binnenin de sectie */
+  margin: 20px auto; /* Centrerend op de pagina */
+  width: 80%; /* Beperk de breedte van de sectie */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Schaduw voor diepte */
+}
+
+.card-content {
+  padding: 15px; /* Binnenruimte voor de content */
+}
+
+.card-content h2, .card-content h3 {
+  margin: 0 0 10px 0; /* Marges voor de koppen */
+}
